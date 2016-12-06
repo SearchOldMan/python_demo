@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>loading</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		a{
+			text-decoration: none;
+		}
+		a:link,a:visited{
+			color:green;
+		}
+		a:hover{
+			color:red;
+		}
+		html,body{
+			width: 100%;
+			height: 100%;
+
+		}
+		.hidden{
+			font-size: 16px;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0,0,0,.6);
+			position: fixed;
+			top:0;
+			left: 0;
+			display: none;
+		}
+		.form1{
+			width: 200px;
+			height: 300px;
+			border:1px solid green;
+			border-radius: 8px;
+			background-color: white;
+			
+			padding: 40px;
+			
+
+			position:relative;
+			top:50px;
+			left:50%;
+			margin-left: -200px;
+		}
+		
+
+		.form1 div{
+			height: 50px;
+		}
+
+		.div_username{
+			position: absolute;
+			top:30px;
+			left:30px;
+		}
+		.div_password{
+			position: absolute;
+			top:80px;
+			left: 30px;
+		}
+		.p_submit{
+			position: absolute;
+			top:120px;
+			left: 30px;
+		}
+	</style>
+	<script>
+		window.onload = function(){
+			//获取按钮元素
+			var btn = document.getElementById("btn");
+			//获取表单的父亲
+			var div_form = document.getElementById("div_form");
+
+			//获取取消链接的元素
+			var a_cancel = document.getElementById("a_cancel")
+			//点击出现form表格
+			btn.addEventListener("click", function(){
+				console.log(12);
+				//显示
+				div_form.style.display = 'block';
+			});
+
+			//点击其他地方或者取消  消失
+			document.body.addEventListener("click", function(e){
+				
+				var e = window.event || event;
+				if(e.target.id === 'div_form'){
+					div_form.style.display = 'none';
+				}
+				//取消按钮点击也消失
+				a_cancel.addEventListener("click", function(){
+					div_form.style.display = 'none';
+				});	
+			});
+		};
+		
+
+
+		function aaa(aEle){
+			//显示
+			div_form.style.display = 'block';
+		}
+	</script>
+</head>
+<body>
+	<button id="btn">按钮</button>
+	<div class="hidden" id="div_form">
+		<form action="" class="form1">
+			<div class="div_username">
+				<label for="">用户名：</label>
+				<input type="text" placeholder="请输入用户名" name="username">
+			</div>
+			<div class="div_password">
+				<label for="">密码：</label>
+				<input type="password" placeholder="请输入密码" password="password">
+			</div>
+			<p class="p_submit">
+				<a href="javascript:;" id="a_cancel">取消</a>
+				<a href="javascript:;">提交</a>
+			</p>			
+		</form>
+	</div>
+</body>
+</html>
