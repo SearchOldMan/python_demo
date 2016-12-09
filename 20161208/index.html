@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.box{
+			height: 100px;
+			width:100px;
+			border:1px solid red;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">hahha</div>
+	<script>
+		var div = document.querySelector('.box')
+		div.onmouseover = function(e){
+			divElement = e.target
+			console.log(div.innerHTML)
+		}
+	</script>
+</body>
+</html>
