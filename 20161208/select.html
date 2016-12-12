@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#sel{
+			disabled:disabled;
+		}
+	</style>
+</head>
+<body>
+	<input type="text" value="" id="txt">
+	<select name="" id="sel">
+		<option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+	</select>
+	
+	<script>
+		var flag = true;
+		var select = document.getElementById('sel');
+		var txt = document.getElementById('txt');
+
+		select.onchange = function(){
+			if(this.value == '0' || this.value == '1'){
+				txt.setAttribute('disabled','disabled');
+				
+			}
+			else{
+				txt.removeAttribute('disabled');
+				
+			}
+			
+			console.log(this.value)
+			
+		}
+
+	</script>
+
+</body>
+</html>
