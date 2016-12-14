@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Language" content="zh-CN" />
+<title>python培训相关的python 教程,下载和主机都可以找老王python</title>
+<meta name="Description" content="老王python-提供实用有趣的教程,相关资源下载,书籍推荐和django教程,另外提供超值付费培训！" />
+<link rel="author" href="https://plus.google.com/105735934512618900781"/>
+<meta name="baidu-site-verification" content="PPsk8T7npf" />
+<link rel="stylesheet" rev="stylesheet" href="http://www.cnpythoner.com/themes/ecworker/source/style.css.asp" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" href="http://www.cnpythoner.com/rss.xml" />
+</head>
+<body class="multi default">
+<div id="divAll">
+  <div id="divPage">
+    <div id="divMiddle">
+      <div id="divTop">
+       <div id="BlogTitle"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/logo.gif" alt="python" width="230" height="60"></div>
+		<div class="banner">
+<a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/images/9354036.gif" usemap="#AV-eggs" border="0" height="70" width="600" alt="python视频教程"></a></div>																										
+    </div>
+      <div id="divNavBar">
+	  	<div class="headLeft"></div>
+		<div class="headRight"></div>
+        <ul>
+          <li><a href="http://www.cnpythoner.com/" rel="nofollow">首页</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=11">入门教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=4">练习题</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo应用</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=16">linux</a></li>
+<li><a href="http://www.cnpythoner.com/catalog.asp?cate=17">测试应用</a></li>
+<li><a href="http://www.cnpythoner.com/pythonbook.html" target="_blank">书籍推荐</a></li>
+
+
+        </ul>
+      </div>
+      <div id="divSearchBar">
+        <table>
+        <tbody>
+            <tr>
+        		<td align="left" valign="center" class="search_table">
+        			<form method="post"  class="forminline" action="http://www.cnpythoner.com/cmd.asp?act=Search">
+                    <table><tr><td widht="60px">Search : </td>
+                    <td><input type="text" name="edtSearch" id="edtSearch" /></td>
+						<td><input type="submit" value="提交" name="btnPost" id="btnPost" /><td>
+                        </tr></table>
+					</form>
+        		</td>
+        		<td valign="center" width="2" class="search_seperator"><BR />        			
+				</td>
+        		<td valign="center"  class="search_hottage">
+				<div style="float:right">热门知识点：&nbsp;<a href="http://www.cnpythoner.com/wiki/string.html" target="_blank">python 字符串</a></div>
+        		</td>
+            </tr>
+        </tbody>   
+        </table>
+      </div>
+	  <div id="navline"></div>
+      <div id="divMain2">
+
+	  <!-- #template:article-multi# -->
+	  <!-- CMS列表区 -->
+	  <!--  分类一      推荐文章(就是置顶文章) -->
+	  <div class="cmslist">
+	  <table width=100%  border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width=50% class='cmstd'>
+<!--分类一--><div class='cmstddiv'>
+<h3><a href="http://www.cnpythoner.com/catalog.asp?cate=11">python 入门教程</a></h3><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/312.html">python 算术运算符</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/311.html">python 保留字</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/301.html">python 字典(dict)get方法应用</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/298.html">python yield和generators(生成器)</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/295.html">python 私有属性和方法</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/292.html">python 自定义异常的定义和代码</a></div></div></td>
+<td class='cmstd'>
+<!--推荐文章--><div class='cmstddiv'>
+<h3>推荐文章</h3><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/280.html">为什么要学习python</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/268.html">python网络编程需要哪些网络相关知识</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/193.html">django 环境变量的设置</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/192.html">你想怎么学习这门语言呢？</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/176.html">如何安装配置ulipad</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/131.html">我给大家免费送上价值300元的教程</a></div></div></td>
+</tr>
+</table>
+</div>
+<!--      分类二      分类三  -->
+<div class="cmslist">
+	  <table width=100%  border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width=50% class='cmstd'>
+<!--分类二--><div class='cmstddiv'>
+<h3><a href="http://www.cnpythoner.com/catalog.asp?cate=1">python教程</a></h3><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/319.html">python 生成word中文字体</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/318.html">我用python经常做的事情</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/314.html">urllib2添加header头</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/310.html">python抓取中文网页乱码通用解决方法</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/300.html">python 正则表达式re findall</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/276.html">python 获取cookie</a></div></div></td>
+<td class='cmstd'>
+<!--分类三--><div class='cmstddiv'>
+<h3><a href="http://www.cnpythoner.com/catalog.asp?cate=15">seo和python</a></h3><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/315.html">python被越来越多的SEO人员重视</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/313.html">python程序批量挖掘百度长尾关键词</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/299.html">python中文分词</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/293.html">老王pythonSEO蜘蛛日志分析系统,参考(国平的...</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/235.html">伪原创程序提取文章高频词</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/196.html">wordpress 数据远程同步方法</a></div></div></td>
+</tr>
+</table>
+</div>
+<!--      通栏广告(图片加链接,宽根据模板对齐,高70)-->
+<div class="cmslist">
+<a href="http://www.cnpythoner.com/peixun/info.html"><img src="http://www.cnpythoner.com/themes/ecworker/style/default/9236531.gif" usemap="#AV-eggs" border="0" height="70" width="660"></a>
+</div>
+<!--      分类四      分类五 -->
+<div class="cmslist">
+	  <table width=100%  border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width=50% class='cmstd'>
+<!--分类四--><div class='cmstddiv'>
+<h3><a href="http://www.cnpythoner.com/catalog.asp?cate=2">django教程</a></h3><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/320.html">django sql语句查询（不需要插件）</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/135.html">django 一对多关系操作</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/113.html">提高django model效率的几个小方法</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/105.html">django get_object_or_404</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/94.html">django in</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/56.html">django request 方法</a></div></div></td>
+<td class='cmstd'>
+<!--分类五--><div class='cmstddiv'>
+<h3><a href="http://www.cnpythoner.com/catalog.asp?cate=5">django开发案例</a></h3><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/205.html">新浪app上小型留言板程序</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/django-sqlite.html">django sqlite数据库配置问题</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/119.html">打印django sql执行的语句</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/112.html">django regroup</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/14.html">django的哲学很耐人回味</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/djangoreverse.html">django reverse()</a></div></div></td>
+</tr>
+</table></div>
+<!--      分类六      分类七-->
+<div class="cmslist">
+	  <table width=100%  border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width=50% class='cmstd'>
+<!-- 分类六--><div class='cmstddiv'>
+<h3><a href="http://www.cnpythoner.com/catalog.asp?cate=9">python问答</a></h3><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/278.html">BeautifulSoup已经安装，但仍提示No module ...</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/270.html">Python做下载器需要掌握哪些</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/268.html">python网络编程需要哪些网络相关知识</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/259.html">python 文件的中文在 windows 下运行乱码</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/258.html">python 将字符串转换成字典dict类型</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/257.html">python list 中文问题</a></div></div></td>
+<td class='cmstd'>
+<!-- 分类七--><div class='cmstddiv'>
+<h3><a href="http://www.cnpythoner.com/catalog.asp?cate=6">相关资料下载</a></h3><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/187.html">ulipad 编辑器下载</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/python-string.html">字符串一次替换多个字符</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/107.html">给大家提供相关运行环境下载</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/63.html">2.5 版本下载</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/42.html">2.6 版本下载</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/38.html">2.5.4 版本下载</a></div></div></td>
+</tr>
+</table></div>
+<div class="cmslist">
+	  <table width=100%  border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width=50% class='cmstd'>
+<!-- 分类六--><div class='cmstddiv'>
+<h3>热门资料</h3><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/4.html">django form</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/51.html" title="list">列表操作</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/41.html">python 主机</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/104.html">exception</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/64.html">字典 添加</a></div><div class="cmsdiv"><a href="http://www.cnpythoner.com/post/59.html">base64</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/77.html">django filter</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/76.html">语法缩进</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/8.html">re.compile</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/163.html">mysql操作</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/287.html">filter, map, 和reduce</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/289.html">dir 自省方法</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/284.html">range方法</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/290.html">包的定义,结构,导入过程</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/282.html">Python 数学计算</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/296.html">fabric 安装配置</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/83.html">迭代方法</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/djangoreverse.html">django reverse</a></div>
+</div>
+</div></td>
+<td class='cmstd'>
+<!-- 分类七--><div class='cmstddiv'>
+<h3>推荐资料</h3>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/56.html">django request</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/90.html">apply</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/30.html">cookielib</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/71.html">sgmlparser</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/58.html">元组</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/51.html">列表操作</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/20.html">python 引用</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/32.html">django中间件</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/78.html">python int 异常</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/9.html">如何学习python</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/81.html">三引号的应用</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/277.html">笨方法学python</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/286.html">pass (空操作)语句</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/285.html">break和continue语句</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/281.html">python 调用解释器</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/297.html">fabric 批量自动化运维管理</a></div>  
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/145.html">模块</a></div>
+<div class="cmsdiv"><a href="http://www.cnpythoner.com/post/116.html">beautifulsoup</a></div>
+</div></td>
+</tr>
+</table></div>
+
+<!--      通栏广告(图片加链接,宽根据模板对齐,高70)-->
+<!--      分类八      分类九-->
+<!--                                   备注:各分类调用最新文章,显示数量为8条-->
+      </div>
+      <div id="divSidebar">
+        <div class="function" id="divPrevious">
+          <h3>关于网站</h3>
+          <p id="info">
+          <img src="http://www.cnpythoner.com/images/erweima.jpeg" width="200" alt="微信公众平台">
+            <span style="color:red;">扫描二维码: 即可获得python精品教程</span>，并且不定期地分享python,django 实战技巧
+          </p>
+        </div>
+
+<div class="function" id="divPrevious">
+<h3>实用学习资料和工具</h3>
+<ul>
+<li><a href="http://docs.python.org/2/tutorial/" rel="nofollow" target="_blank">Tutorial</a></li>
+<li><a href="http://sebug.net/paper/python/" rel="nofollow" target="_blank">简明教程</a></li>
+<li><a href="https://docs.djangoproject.com/en/1.4/#django-documentation" rel="nofollow" target="_blank">Django documentation</a></li>
+<li><a href="http://www.czug.org/python/django/" rel="nofollow" target="_blank">django book</a></li>
+<li><a href="http://zetcode.com/db/sqlitepythontutorial/">sqlite3</a></li>
+<li><a href="http://wiki.wxpython.org/How%20to%20Learn%20wxPython" rel="nofollow" target="_blank">wxpython</a></li>
+</ul>
+</div>
+
+<div class="function" id="divPrevious">
+<h3>阅读推荐</h3>
+<ul>
+<li><a href="http://www.cnpythoner.com/post/65.html" title="replace">字符串替换</a></li>
+<li><a href="http://www.cnpythoner.com/post/69.html" title="file">文件操作</a></li>
+<li><a href="http://www.cnpythoner.com/post/35.html">多线程</a></li>
+<li><a href="http://www.cnpythoner.com/post/67.html">字符串连接</a></li>
+<li><a href="http://www.cnpythoner.com/post/62.html">字典</a></li>
+<li><a href="http://www.cnpythoner.com/post/46.html" title="队列">queue</a></li>
+<li><a href="http://www.cnpythoner.com/post/48.html">字符串截取</a></li>
+<li><a href="http://www.cnpythoner.com/post/87.html">popen</a></li>
+<li><a href="http://www.cnpythoner.com/post/43.html">编辑器</a></li>
+<li><a href="http://www.cnpythoner.com/post/42.html">2.6 版本下载</a></li>
+<li><a href="http://www.cnpythoner.com/post/50.html">列表</a></li>
+<li><a href="http://www.cnpythoner.com/post/89.html" title="time">当前时间</a></li>
+<li><a href="http://www.cnpythoner.com/post/74.html">数据类型</a></li>
+<li><a href="http://www.cnpythoner.com/post/80.html">switch</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5</a></li>
+<li><a href="http://www.cnpythoner.com/post/73.html" title="set">集合</a></li>
+<li><a href="http://www.cnpythoner.com/post/140.html" title="def">lambda</a></li>
+<li><a href="http://www.cnpythoner.com/post/92.html">os</a></li>
+<li><a href="http://www.cnpythoner.com/post/2.html">__init__.py</a></li>
+<li><a href="http://www.cnpythoner.com/post/12.html">sys.path</a></li>
+<li><a href="http://www.cnpythoner.com/post/45.html">wxpython</a></li>
+<li><a href="http://www.cnpythoner.com/post/63.html">2.5.4</a></li>
+<li><a href="http://www.cnpythoner.com/post/176.html">ulipad</a></li>
+<li><a href="http://www.cnpythoner.com/post/84.html">path</a></li>
+<li><a href="http://www.cnpythoner.com/post/102.html">os system</a></li>
+<li><a href="http://www.cnpythoner.com/post/111.html">函数返回值</a></li>
+
+</ul>
+</div>
+      </div>
+	<div id="divBottom2">
+		<div class="link">
+			<ul>
+				<li><a href="http://www.pythontab.com" target="_blank">python教程</a></li>
+<li><a href="http://www.zlovezl.cn" target="_blank" title="猪之哀伤的Blog">猪之哀伤的Blog</a></li>
+<li><a href="http://www.python.org/" target="_blank">官方网站</a></li>
+<li><a href="http://www.djangoproject.com/" target="_blank" title="Django">Django</a></li>
+<li><a href="http://simple-is-better.com/" target="_blank" >Python.cn(news, jobs)</a></li>
+<li><a href="http://www.joyphper.net/" target="_blank" >php学习</a></li>
+<li><a href="http://www.rrgod.com/" target="_blank">Eddy Blog</a></li>
+<li><a href="http://www.cnblogs.com/wanpython/" target="_blank">教程</a></li>
+<li><a href="http://www.cnpythoner.com/sitemap.html" target="_blank">网站HTML地图</a></li>
+<li><a href="http://www.91python.com/" target="_blank">91python</a></li>
+<li><a href="http://www.semshare.net/" target="_blank">小东北网络营销</a></li>
+<li><a href="http://www.cnblogs.com/wanpython/archive/2013/04/06/3002037.html">python视频教程</a></li>
+<li><a href="http://shenzhen.seosrx.net/">深圳seo</a></li>
+<li><a href="http://www.babysheying.com">江西新鲜事</a></li>
+<li><a href="http://www.seoqx.com">seo论坛</a></li>
+<li><a href="http://www.jiadingqiang.com/">贾定强博客</a></li>
+<li><a href="http://www.zhixin99.com/page/seojiaocheng">SEO教程</a></li>
+<li><a href="http://www.jiaolongseo.com">交龙网</a></li>
+			</ul>
+		</div>
+	</div>
+      <div id="divBottom">
+        <div id="BlogPowerBy">老王python ® 版权所有 备案号：湘ICP备10012179号</div>
+        <div style="text-align:center"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257401823'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1257401823' type='text/javascript'%3E%3C/script%3E"));</script></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18276619-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
+
