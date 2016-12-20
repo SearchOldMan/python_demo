@@ -13,6 +13,7 @@ def get_url_from_laowang(url):
         opener = urllib.urlopen(url)
         content = opener.read()
         g = r.findall(content)
+        save_content_from_url(url, content)
         opener.close()
         return g
     
@@ -20,10 +21,7 @@ def get_url_from_laowang(url):
         return []
     
 
-def save_content_from_url(url):
-    opener = urllib.urlopen(url)
-    content = opener.read()
-    opener.close()
+def save_content_from_url(url,content):
     
     #建立文件
     filename = url.replace('http://','')
@@ -37,7 +35,7 @@ def save_content_from_url(url):
     return
 
 def get_and_save_content(url,data_cache,i):
-    save_content_from_url(url)
+    
     urls = get_url_from_laowang(url)
     for url in urls:
         if url not in data_cache:
