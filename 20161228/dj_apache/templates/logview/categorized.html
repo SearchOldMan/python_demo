@@ -1,0 +1,12 @@
+{% extends "logview/base.html" %}
+{% block title %}Server List{% endblock %}
+{% block content %}
+<h2>{{ category }}::{{ category_name }}</h2>
+<div>
+	<ul>
+		{% for s in server_list %}
+			<li><a href="/server_detail/os/{{s.id}}">{{ s.name }}</a></li>
+		{% endfor %}
+	</ul>
+</div>
+{% endblock %}

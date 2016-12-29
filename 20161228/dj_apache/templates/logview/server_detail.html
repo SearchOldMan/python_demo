@@ -1,0 +1,23 @@
+{% extends 'logview/base.html' %}
+{% block title %}Server List{% endblock %}
+{% block content %}
+<div>Name:{{server.name}}</div>
+<div>Description:{{server.description}}</div>
+<div>Os:{{ server.os.name }}</div>
+<div>
+	<h2>Services:</h2>
+	<ul>
+	{% for service in server.services.all %}
+		<li>{{service.name}}</li>
+	{% endfor %}
+	</ul>
+</div>
+<div>
+	<h2>Hardware:</h2>
+	<ul>
+		{% for hw in server.hard_component.all %}
+			<li>{{ hw.manufacturer }}{{hw.type}}{{hw.model}}</li>
+		{% endfor %}
+	</ul>
+</div>
+{% endblock %}
