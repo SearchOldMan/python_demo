@@ -1,0 +1,250 @@
+/*全局设置*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: '微软雅黑';
+	font-size: 16px;
+}
+ul{
+	list-style: none;
+}
+a:hover{
+	color:red;
+}
+
+/*局部样式开始*/
+/*公司热线样式*/
+.tel{
+	width: window.innerHTML;
+	height: 35px;
+	background-color: #056268;
+	position: relative;
+}
+.tel_table{
+	position: absolute;
+	top: 0px;
+	left:20%;
+	height: 35px;
+	line-height: 35px;
+	color:white;
+}
+.hidden_erwei{
+	width: window.innerHTML;
+	height: 800px;
+	background-color: rgba(0,0,0,.6);
+	position: relative;
+	z-index: 1000;
+	top:10px;
+}
+/*logo样式*/
+.logo table{
+	height: 100px;
+	width: 100%;
+}
+/*导航栏样式*/
+.nav_header ul{
+	position: absolute;
+	bottom:0;
+}
+.nav_header ul li{
+	margin-left:10px;
+	float:left;
+}
+/*轮播图淡入淡出样式*/
+.banner{
+	position: relative;
+  	width: window.innerHTML;
+  	height: 400px;
+  	margin: 20px 0px;
+}
+.pic li {
+	width:100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+ }
+ .pic li img {
+	width: 100%;
+	height: 400px;
+ }
+ #position{
+	position: absolute;
+	bottom: 0;
+	right:0;
+	margin: 0;
+	background: #000;
+	opacity: 0.4;
+	width: 100%;
+	text-align: center;
+ }
+ #position li{
+	width: 10px;
+	height: 10px;
+	margin:0 2px;
+	display: inline-block;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #afafaf;
+ }
+ #position .cur{
+ 	background-color: #ff0000;
+ }
+ 
+.arrow { 
+  cursor: pointer;
+  display: none; 
+  line-height: 400px; 
+  text-align: center; 
+  font-size: 36px; 
+  font-weight: bold; 
+  width: 40px; 
+  height: 400px; 
+  position: absolute; 
+  z-index: 2; 
+  top: 50%;
+  margin-top: -200px; /*height的一半*/
+  background-color: RGBA(0,0,0,.3); 
+  color: #fff;
+}
+ .arrow:hover { 
+  background-color: RGBA(0,0,0,.7);
+  text-decoration: none;
+ }
+ .banner:hover .arrow { 
+  display: block;
+ }
+ #prev { 
+  left: 0px;
+ }
+ #next { 
+  right: 0px;
+ }
+
+ /*主要内容区域样式*/
+ .main_content{
+ 	width: window.innerHTML;
+ 	margin-top:10px;
+ 	background:#ececef;
+ }
+.line{
+	height: 6px;
+	width: 100%;
+	background-color: #fff;
+}
+.user_login{
+	padding:10px 60px;
+}
+
+.gold{
+	font-size:14px;
+	color:#8e8227;
+}
+
+/* 关于我们的样式 */
+.green_td{
+	color:green;
+}
+.history,.job{
+	display: none;
+}
+#construction p{
+	font-size: 14px;
+}
+.job h5{
+	color:#a1b922;
+}
+/*产品中心的样式*/
+.produces .title{
+	height: 40px;
+	border-bottom: 1px solid #e3dfd3;
+	margin:0 0 20px;
+}
+.produces .title h2{
+	height: 26px;
+	line-height: 26px;
+	border-left:6px solid #bf9b31;
+	font-size: 22px;
+	color:#bf9b31;
+	font-weight: normal;
+	padding:0 0 0 10px;
+}
+.attention p{
+	line-height: 20px;
+	font-size: 14px;
+}
+/* 联系我们的样式 */
+.chat_us .title{
+	height: 40px;
+	border-bottom: 1px solid #e3dfd3;
+	margin:0 0 20px;
+}
+.chat_us .title h2{
+	height: 26px;
+	line-height: 26px;
+	border-left:6px solid #bf9b31;
+	font-size: 22px;
+	color:#bf9b31;
+	font-weight: normal;
+	padding:0 0 0 10px;
+}
+/*注册页面的样式*/
+.read_only{
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	top:140px;
+	left: 0;
+	z-index: 9999;
+	background-color: rgba(0,0,0,.61);
+	padding:30px 0 0 0;
+	display: none;
+}
+.renzheng p{
+	font-size:15px;
+	text-indent: 2em;
+
+}
+.user_message .title{
+	height: 40px;
+	border-bottom: 1px solid #e3dfd3;
+	margin: 0 0 20px;
+}
+.user_message .title h2{
+	height: 26px;
+	line-height: 26px;
+	border-left: 6px solid #bf9b31;
+	font-size:22px;
+	color:#bf9b31;
+	padding: 0 0 0 10px;
+}
+/* 底部版权样式 */
+.footer{
+	width: window.innerHTML;
+	height: 100px;
+	background-color: rgba(0,0,0,.5);
+	margin-top:16px;
+	position: relative;
+}
+.copy_ul{
+	width: 50%;
+	position: absolute;
+	left:30%;
+}
+.footer ul li{
+	width: 60px;
+	line-height: 50px;
+	text-align: center;
+	color:white;
+	font-size:12px;
+	float: left;
+}
+.footer .copy_p{
+	position: absolute;
+	top:50px;
+	left: 30%;
+	color:white;
+	font-size:12px;
+}

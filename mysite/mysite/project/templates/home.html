@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+{% block content %}
+	<!-- 通栏的图片轮播 -->
+	<div class="banner">
+		<ul class="pic">
+		  <li><a href="javascript:;"><img src="/static/images/auto_player01.jpg" alt="pic1"></a></li>
+		  <li><a href="javascript:;"><img src="/static/images/auto_player02.jpg" alt="pic2"></a></li>
+		  <li><a href="javascript:;"><img src="/static/images/auto_player03.jpg" alt="pic3"></a></li>
+		 </ul>
+		 <ul id="position">
+		  <li class="cur"></li>
+		  <li class=""></li>
+		  <li class=""></li>
+		 </ul>
+		 <a href="javascript:;" id="prev" class="arrow"><</a>
+		 <a href="javascript:;" id="next" class="arrow">></a>
+	</div>
+	<!-- 内容区域 -->
+	<div class="main_content">
+		<div class="container" style="height:auto">
+			<!-- 左边区域:包括用户登录须知、登陆注册的页面 -->
+			<div class="col-md-6 col-xs-12" style="background-color: #D6E8EC;border-bottom: 2px solid red;">
+				<div class="media" >
+				  <a class="media-left media-middle" href="#">
+				    <img src="/static/images/ico07.jpg" alt="...">
+				  </a>
+				  <div class="media-body" style="padding-top:6px;">
+				    <b class="media-heading" style="color:#c00132;font-size:16px;">用户须知</b>
+				    <p style="line-height: 22px;color:#614949;font-size: 14px;">
+				    	根据《私募投资基金监督管理暂行办法》第四章第十四条规定："私募基金管理人、私募基金销售机构不得向合格投资者之外的单位和个人募集资金，不得通过报刊、电台、电视、互联网等公众传播媒体或者讲座、报告会、分析会和布告、传单、手机短信、微信、博客和电子邮件等方式，向不特定对象宣传推介。"
+				    </p >
+				    <p style="line-height: 22px;font-size:13px;color:#614949;">我们只向特定的合格投资者展示相关私募投资基金产品。</p>
+				  </div>
+				</div>
+				<h1 class="line"></h1>
+				<form class="form-signin user_login" role="form" style="height: 380px;" method="post" action="">
+					{% csrf_token %}
+			        <h2 class="form-signin-heading" style="color:#c00132">Please sign in</h2>
+			        <input class="form-control" type="number" placeholder="phone number" name='username' required autofocus />
+			        <input type="password" class="form-control" placeholder="Password" name='pw' required>
+			        <div class="checkbox">
+			          <label>
+			            <input type="checkbox" value="remember-me"> remeber me
+			          </label>
+			        </div>
+			        <button class="btn btn-lg btn-danger btn-block" type="submit">Sign in</button>
+			        <p style="float: right;margin-top:10px;">
+			        	<span>尚未注册 <a style="color:red" href="../zhuce/">请注册 >></a></span>
+			        </p>
+		      	</form>
+			</div>
+			<!-- 右边区域：包括公司粗略介绍、最新的产品更新动态 -->
+			<div class="col-md-6 col-xs-12">
+				<!-- 最新动态 -->
+				<div class="panel panel-default">
+				  <!-- Default panel contents -->
+				  <div class="panel-heading" style="color:red;">最新动态</div>
+				  <!-- List group -->
+				  <ul class="list-group">
+				  	{% for title in titles %}
+				  		<li class="list-group-item gold"><a href="../produces/" class="gold">{{title.title}}</a></li>
+				  	{% endfor %}
+				  </ul>	
+				</div>
+				<!-- 公司简介 -->
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h3 class="panel-title" style="color:red;">公司简介</h3>
+				  </div>
+				  <div class="panel-body">
+				    <div class="media">
+					  <a class="media-left media-middle" href="#">
+					    <img src="/static/images/syzc.jpg" alt="..." style="height: 64px;width:64px;">
+					  </a>
+					  <div class="media-body">
+					    <h4 class="media-heading"><strong>上海商羊资产管理有限公司</strong></h4>
+					    <p style="text-indent: 2em;font-size:14px;line-height: 26px">
+					    	商羊资产公司于2014年成立，注册资本1000万人民币，福州、香港为研发中心，具有私募投资基金管理人登记证书，公司由国内外资本市场资深专业人士发起成立，并吸收了多名在平台构建、数据挖掘、模型组合等专业领域有成熟技术的量化交易人才。汇聚金融、数学、物理、计算机等各领域人才，主要以量化投资为主。
+					    </p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>	
+{% endblock %}
+</body>
+</html>

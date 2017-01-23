@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "Name": "商羊盈信1号",
+    "Manager": "林鸿辉",
+    "CreateDate": "2015-03-05",
+    "LastValue": 1.3180,
+    "IncreaseRate": "31.80",
+    "UpdateDate": "2016-05-31"
+  },
+  {
+    "Id": 2,
+    "Name": "金友商羊1号",
+    "Manager": "林鸿辉",
+    "CreateDate": "2015-12-29",
+    "LastValue": 1,
+    "IncreaseRate": "0",
+    "UpdateDate": "2016-12-23"
+  },
+  {
+    "Id": 3,
+    "Name": "商羊进取1号",
+    "Manager": "林鸿辉",
+    "CreateDate": "2016-04-25",
+    "LastValue": 0.874,
+    "IncreaseRate": "-12.60",
+    "UpdateDate": "2017-01-13"
+  },
+  {
+    "Id": 4,
+    "Name": "商羊盈信3号",
+    "Manager": "林鸿辉",
+    "CreateDate": "2016-03-16",
+    "LastValue": 1.02,
+    "IncreaseRate": "2.00",
+    "UpdateDate": "2017-01-13"
+  },
+  {
+    "Id": 5,
+    "Name": "商羊盈信5号",
+    "Manager": "林鸿辉",
+    "CreateDate": "2016-05-06",
+    "LastValue": 0.926,
+    "IncreaseRate": "-7.40",
+    "UpdateDate": "2017-01-13"
+  },
+  {
+    "Id": 6,
+    "Name": "兴鑫商羊2号",
+    "Manager": "林鸿辉",
+    "CreateDate": "2015-11-17",
+    "LastValue": 0.918,
+    "IncreaseRate": "-8.20",
+    "UpdateDate": "2016-09-13"
+  },
+  {
+    "Id": 7,
+    "Name": "商羊进取2号",
+    "Manager": "林鸿辉",
+    "CreateDate": "2016-04-15",
+    "LastValue": 0.962,
+    "IncreaseRate": "-3.80",
+    "UpdateDate": "2017-01-13"
+  },
+  {
+    "Id": 8,
+    "Name": "商羊盈信6号",
+    "Manager": "林鸿辉",
+    "CreateDate": "2016-07-01",
+    "LastValue": 0.913,
+    "IncreaseRate": "-8.70",
+    "UpdateDate": "2017-01-13"
+  }
+]

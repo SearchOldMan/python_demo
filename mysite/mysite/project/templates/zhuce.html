@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+{% block content %}
+	<!-- 用户注册前必读 -->
+	<div class="read_only">
+		<div class="container" style="background-color: #fff;padding:20px 20px;">
+			<div class="alert alert-success" role="alert">注册前请仔细阅读负责声明</div>
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <h3 class="panel-title" style="text-align: center;font-size: 20px;"><b>合格投资者认定</b></h3>
+			  </div>
+			  <div class="panel-body renzheng">
+                <p>
+                    商羊资产以最应有的谨慎准备本网站，并且相信本网站的内容是准确的。不以明示或暗示方式，对本网站内容的准确性、充分性、完整性或彻底性作出任何陈述或保证。商羊资产旗下基金对本网站之内容的错误或遗漏，和因使用本网站之内容所造成的任何损失或损害，都不承担任何责任（包括第三者责任）。</p>
+                <p>
+                    我司承诺按照恪尽职守、诚实信用、谨慎勤勉的原则管理和运用基金资产，但投资者购买私募基金并不等同于将资金作为存款存放在银行或存款类金融机构，基金管理人不保证投资本金不受损失，不保证基金一定盈利及最低收益。</p>
+                <p>
+                    私募基金的投资者应符合《私募投资基金监督管理暂行办法》规定，具备相应风险识别能力和风险承担能力。投资者在投资前，应充分了解私募基金的基础知识、业务特点、风险收益特征，应仔细阅读并准确理解基金合同及风险揭示书等文件，确信已做好充分的风险评估与财务安排，并自愿自行承担投资私募基金所面临的全部风险。</p>
+                <p>
+                    投资有风险，商羊资产的任何过往业绩不能代表未来业绩。本站所载的各种信息和数据仅供参考，不构成任何销售要约，不构成任何投资建议，投资有风险，购买需谨慎。</p>
+                <p>
+                    根据《私募投资基金监督管理暂行办法》第四章第十四条规定："私募基金管理人、私募基金销售机构不得向合格投资者之外的单位和个人募集资金，不得通过报刊、电台、电视、互联网等公众传播媒体或者讲座、报告会、分析会和布告、传单、手机短信、微信、博客和电子邮件等方式，向不特定对象宣传推介。"
+                </p>
+                <p style="color: Red">
+                    上海商资产管理有限公司谨遵《私募投资基金监督管理暂行办法》之规定，只向特定的合格投资者宣传推介相关私募投资基金产品。
+                </p>
+                <p>
+                    阁下如有意进行私募投资基金投资且满足《私募投资基金监督管理暂行办法》关于"合规投资者"标准之规定，即具备相应风险识别能力和风险承担能力，投资于单只私募基金的金额不低于100
+                    万元，且个人金融类资产不低于300万元或者最近三年个人年均收入不低于50万元人民币。请阁下详细阅读本提示，并注册成为私募上海商羊资产管理有限公司特定的合规投资者，方可获得上海商羊资产管理有限公司私募投资基金产品宣传推介服务。
+                </p>
+               
+                <div class="btn-group btn-group-lg" role="group" aria-label="Large button group" style="width: 589px; margin: 0 auto; display: block;">
+                    <p>
+                        <strong>
+                            </strong></p><center><strong>
+                                <input id="iSure" type="checkbox"> 我已阅读并接受
+                            </strong></center><strong>
+                        </strong>
+                    <p></p>
+                    <center>
+                   		<a class="btn btn-default" id="iamvaildInvestor">确认无误后请点击进入注册</a>
+                   </center>
+                </div>
+              </div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- 注册框架 -->
+	<div class="main_content">
+		<div class="container user_message" style="background-color: #fff;height: 800px">
+			
+			<div class="title">
+				<h2>用户基本信息</h2>
+			</div>
+			<form class="form-horizontal" role="form" style="margin-top: 60px;" method="POST" action="">
+			  {% csrf_token %}
+			  <div class="form-group">
+			  	<label for="inputName" class="col-sm-2 control-label">合格者签名</label>
+			  	<div class="col-sm-5">
+			  		<input type="text" class="form-control" id="inputName" placeholder="合格者签名" name="person">
+			  	</div>
+			  </div>
+			  <div class="form-group">
+			  	<label for="inputType" class="col-sm-2 control-label">客户类型</label>
+			  	<div class="col-sm-5">
+			  		<input type="text" class="form-control" id="inputType" value="稳健型" disabled>
+			  	</div>
+			  </div>
+			  <div class="form-group">
+			    <label for="inputNumber" class="col-sm-2 control-label">联系电话</label>
+			    <div class="col-sm-5">
+			      <input type="text" class="form-control" id="inputNumber" placeholder="作为登陆时的用户名" name="Tel">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="inputEmail3" class="col-sm-2 control-label">邮箱</label>
+			    <div class="col-sm-5">
+			      <input type="email" class="form-control" id="inputEmail3" placeholder="常用邮箱" name="Email">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+			    <div class="col-sm-5">
+			      <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="Password">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="repeat_inputPassword3" class="col-sm-2 control-label">确认密码</label>
+			    <div class="col-sm-5">
+			      <input type="password" class="form-control" id="repeat_inputPassword3" placeholder="请确认两次密码一致">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="submit3" class="col-sm-2 control-label">下一步</label>
+			    <div class="col-sm-5">
+			      <input type="submit" class="form-control btn btn-success" id="submit3" value="提交">
+			    </div>
+			  </div>
+			</form>
+		</div>
+	</div>	
+{% endblock %}
+</body>
